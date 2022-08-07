@@ -41,9 +41,17 @@ Let's take a look at each individual lot:
 - However, Lot 3, unsurprisingly, presents a different scenario. Here, the sample mean is 1496.14 and the p-value is 0.04, which is below the usual significance level of 0.05. Everything points to the rejection of the null hypothesis that this sample mean and the implied population mean are not statistically different.
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Statistical study to compare the performance of MechaCar vehicles with those of vehicles from other manufacturers.
+
+Metric to measure
+Thinking from a consumer perspective, fuel efficiency in the city and on the highway is of great interest. Competing companies are pushing to make gasoline engines more fuel efficient than diesel. To get a chance, MechaCar will have to enter the fuel efficiency competition. To determine how MechaCar performs compared to the competition, we can determine if there is a correlation between automatic transmission type and fuel efficiency.
+
+Hypothesis
+* Null hypothesis: average fuel consumption for different types of automatic transmissions is the same for all types. 
+* Alternative hypothesis: The average fuel consumption for different types of automatic transmissions is not the same for all types.
+
+Statistical test
+ANOVA  is used to test the means of one continuous dependent variable on one independent variable with multiple groups, similar to categorical data. In this analysis, our independent variable is automatic transmission type, which is a categorical data type, and our dependent variable is fuel efficiency, which is a numeric and continuous data type.
+
+Required data
+The test requires data on vehicles with different types of automatic transmission engines. Ideally, other factors that can affect fuel efficiency should be ignored. However, this is not the case as we do not have ideal conditions in real life and assuming that this would be wrong, numerous statistical tests would be required to find the "sweet spot" that determines which type of transmission provides the best fuel efficiency, factors such like ground clearance and drive type etc.
