@@ -14,9 +14,15 @@ The MechaCar_mpg.csv data set contains fuel consumption per gallon test results 
 - This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be driven by this model. Relatively speaking, his multiple regression model does indeed effectively predict MechaCar prototype fuel consumption per gallon.
 
 ## Summary Statistics on Suspension Coils
-write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+In this part we are analyzing the MechaCar Suspension_Coil.csv data set that contains the results of several production lots. In this data set, the load capacity of several suspension coils was tested to determine if the manufacturing process is the same for all production lots. 
+
+![total_summary](https://user-images.githubusercontent.com/66500222/183272771-c6996c80-331c-4fee-8742-97387da0c1b7.png)
+
+
+![lot_summary](https://user-images.githubusercontent.com/66500222/183272779-d391bb45-f460-4cb1-b01a-3209e87e8047.png)
+
+Looking at the total production lot, the coils have a deflection of 62.29 psi, which is well within the 100 psi deflection requirement. Similarly, but much more consistently, Lot 1 and Lot 2 are within the 100 psi deflection requirement; with variances of 0.98 and 7.47, respectively. However, it is lot 3 that shows much greater variance in performance and consistency with a variance of 170.29. It is Lot 3 that disproportionately causes a deviation at the full lot level.
 
 ## T-Tests on Suspension Coils
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
