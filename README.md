@@ -17,10 +17,10 @@ The MechaCar_mpg.csv data set contains fuel consumption per gallon test results 
 
 In this part we are analyzing the MechaCar Suspension_Coil.csv data set that contains the results of several production lots. In this data set, the load capacity of several suspension coils was tested to determine if the manufacturing process is the same for all production lots. 
 
-![total_summary](https://user-images.githubusercontent.com/66500222/183272771-c6996c80-331c-4fee-8742-97387da0c1b7.png)
+![deliverable 2 ](https://user-images.githubusercontent.com/66500222/183273268-55f9f007-d60a-47b7-9a2e-29645a87b941.png)
 
+![deliverable 2 1](https://user-images.githubusercontent.com/66500222/183273279-9350e92f-b287-446f-b782-e9f548ad1921.png)
 
-![lot_summary](https://user-images.githubusercontent.com/66500222/183272779-d391bb45-f460-4cb1-b01a-3209e87e8047.png)
 
 Looking at the total production lot, the coils have a deflection of 62.29 psi, which is well within the 100 psi deflection requirement. Similarly, but much more consistently, Lot 1 and Lot 2 are within the 100 psi deflection requirement; with variances of 0.98 and 7.47, respectively. However, it is lot 3 that shows much greater variance in performance and consistency with a variance of 170.29. It is Lot 3 that disproportionately causes a deviation at the full lot level.
 
